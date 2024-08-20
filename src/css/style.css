@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+body {
+    background-color: hsl(30, 54%, 90%);
+    font-size: 16px;
+    display: flex;
+    flex-flow: column wrap;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-family: "Young Serif", serif;
+}
+
+h2 {
+    font-family: "Young Serif", serif;
+    color: hsl(14, 45%, 36%);
+}
+
+p, li {
+    font-family: "Outfit", sans-serif;
+}
+
+.container {
+    background-color: hsl(0, 0%, 100%);
+    width: 600px;
+    border-radius: 15px;
+    margin: 4% auto;
+}
+
+.card {
+padding: 25px 30px;
+}
+
+.img {
+    text-align: center;
+
+}
+
+.img img {
+    width: 540px;
+    border-radius: 10px;
+}
+
+.title {
+    margin: 5% 0;
+    font-size: 13px;
+}
+
+.title h1 {
+    margin-bottom: 3%;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.Preparation {
+    background-color: hsl(330, 100%, 98%);
+    border-radius: 10px;
+    margin: 30px 10px;
+    padding: 20px;
+}
+
+.Preparation h2 {
+    font-family: "Outfit", sans-serif;
+    color: hsl(332, 51%, 32%);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.Preparation h2, li {
+    margin-bottom: 2%;
+}
+
+.Preparation li {
+    margin-left: 30px;
+    
+    font-size: 13px;
+    padding: 2px 0;
+}
+
+.Ingredients {
+    border-bottom: 1px solid hsl(30, 54%, 90%);
+    margin-bottom: 6%;
+    padding-bottom: 4%;
+
+}
+
+.Ingredients h2 {
+    margin-bottom: 3%;
+    font-size: 25px;
+    font-weight: 400;
+}
+.Ingredients li {
+    margin-left: 5%;
+    padding: 3px;
+    font-size: 14px;
+}
+
+.Instructions {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    padding-bottom: 6%;
+    margin-bottom: 6%;
+}
+
+.Instructions h2 {
+    margin-bottom: 3%;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.Instructions li {
+    margin-left: 5%;
+    padding: 3px;
+    font-size: 14px;
+}
+
+.Nutrition h2 {
+    margin-bottom: 1%;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.Nutrition p {
+    font-size: 13px;
+    padding: 10px;
+    
+}
+
+.Nutrition strong {
+    color: hsl(332, 51%, 32%);
+}
+
+.inf {
+    border-bottom: 1px solid hsl(30, 54%, 90%);
+}
+
+.inf p {
+    margin-left: 5%;
+}
+
+
+
+
+
+
+
